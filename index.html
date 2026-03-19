@@ -1,0 +1,167 @@
+<html>
+<head>
+    <title>Globo</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 900px;
+            margin: auto;
+        }
+
+        .manchete-principal {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+        }
+
+        .topo {
+            position: relative;
+            line-height: 0;
+        }
+
+        .topo img {
+            width: 100%;
+        }
+
+        .texto-topo {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 60px 25px 20px 25px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.9));
+            color: white;
+            font-size: 34px;
+            font-weight: bold;
+            line-height: 1.1;
+        }
+
+        .faixa-vermelha {
+            background-color: #c4170c;
+            color: white;
+            padding: 20px 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .faixa-vermelha span {
+            width: 31%;
+            font-size: 13px;
+            line-height: 1.4;
+            padding: 0 10px;
+            display: inline-block;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .coluna {
+            width: 31%;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .thumb-container {
+            position: relative;
+            line-height: 0;
+            margin-bottom: 12px;
+        }
+
+        .thumb-container img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .sombra-thumb {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40%;
+            background: linear-gradient(transparent, rgba(0,0,0,0.6));
+            border-radius: 0 0 12px 12px;
+        }
+
+        .titulo {
+            color: #c4170c;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 1.2;
+            margin-bottom: 8px;
+        }
+
+        .descricao {
+            color: #444;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .detalhe {
+            color: #c4170c;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="manchete-principal">
+        <div class="topo">
+            <img src="image01.png" alt="Manchete">
+            <div class="texto-topo">
+            </div>
+        </div>
+
+        <div class="faixa-vermelha">
+            <span>• Israel ataca reunião que definiria o novo líder do Irã, diz jornal.</span>
+            <span>• Agência: estrondos são ouvidos em Dubai, Abu Dhabi e Doha; SIGA.</span>
+            <span>• General do Irã ameaça centros econômicos do Oriente Médio.</span>
+        </div>
+    </div>
+
+    <div class="grid">
+
+        <div class="coluna">
+            <div class="thumb-container">
+                <img src="image02.png">
+                <div class="sombra-thumb"></div>
+            </div>
+            <div class="titulo">Multidão no Irã vai a funeral de crianças; ONU pede apuração</div>
+            <div class="descricao"><span class="detalhe">•</span> Escalada nuclear pode ser fatal, diz especialista</div>
+        </div>
+
+        <div class="coluna">
+            <div class="thumb-container">
+                <img src="image04.png">
+                <div class="sombra-thumb"></div>
+            </div>
+            <div class="titulo">Trump ameaça usar bases da Espanha sem autorização</div>
+            <div class="descricao"><span class="detalhe">•</span> O que está por trás do conflito entre EUA e Irã?</div>
+        </div>
+
+        <div class="coluna">
+            <div class="thumb-container">
+                <img src="image05.png">
+                <div class="sombra-thumb"></div>
+            </div>
+            <div class="titulo">Valores da guerra: drones de US$ 20 mil x mísseis de US$ 4 mi</div>
+            <div class="descricao"><span class="detalhe">•</span> Emirados criam corredor de segurança para voos</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
